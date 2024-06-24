@@ -1,0 +1,30 @@
+import numpy as np # MATRIX OPERATIONS
+import pandas as pd # EFFICIENT DATA STRUCTURES
+import matplotlib.pyplot as plt # GRAPHING AND VISUALIZATIONS
+import math # MATHEMATICAL OPERATIONS
+import cv2 # IMAGE PROCESSING - OPENCV
+from glob import glob # FILE OPERATIONS
+import itertools
+#ali
+import joblib
+
+# KERAS AND SKLEARN MODULES
+from keras.utils import np_utils
+from keras.preprocessing.image import ImageDataGenerator
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.layers import Dropout
+from keras.layers import Flatten
+from keras.layers.convolutional import Conv2D
+from keras.layers.convolutional import MaxPooling2D
+from keras.layers import BatchNormalization
+from keras.callbacks import ModelCheckpoint,ReduceLROnPlateau,CSVLogger
+
+from sklearn import preprocessing
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix
+
+
+# GLOBAL VARIABLES
+scale = 160 #70
+seed = 90
